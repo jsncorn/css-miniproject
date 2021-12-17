@@ -1,6 +1,5 @@
 :root {
     --cardbg: rgb(232, 103, 237);
-    --cardgradient: (0deg, rgba(93,0,107,1) 0%, rgba(173,0,200,1) 100%);
     --background: rgb(51, 57, 64);
 }
 
@@ -48,11 +47,12 @@ main > section {
     width: 30%;
 }
 
-.box p {
+p {
     position: relative;
     top: -27px;
     padding-left: 10px;
     margin: 0px auto;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 992px) {
@@ -68,24 +68,23 @@ main > section {
 }
 
 .codebox {
-    background: linear-gradient(0deg, rgba(93,0,107,1) 0%, rgba(173,0,200,1) 100%);
+    background-image: linear-gradient(rgba(232, 102, 236, 0.3) 0%, rgba(232, 102, 236, .6) 100%);
     padding: 3px;
     width: 90%;
     margin: auto;
-    border-radius: 8px;
+    border-radius: 8px;    
     position: relative;
     top: -15px;
+    height:255px;
+    align-items: center;
 }
 
-code {
+pre {
     margin-left: 10px;
-    display: block;
+    display: flex;
     color: white;
     font-family: monospace;
-    text-indent: 20px;
     line-height: 1.5;
+
 }
 
-.noindent {
-    text-indent: 0;
-}
