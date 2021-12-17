@@ -1,6 +1,7 @@
 :root {
-    --cardbg: rgb(182, 0, 218);
-    --cardgradient: rgba(93,0,107,1) 0%, rgba(173,0,200,1) 100%;
+    --cardbg: rgb(232, 103, 237);
+    --cardgradient: (0deg, rgba(93,0,107,1) 0%, rgba(173,0,200,1) 100%);
+    --background: rgb(51, 57, 64);
 }
 
 * {
@@ -13,7 +14,7 @@ header, .box {
 }
 
 html {
-    background-color: navy;
+    background-color: var(--background);
 }
 
 h1 {
@@ -21,12 +22,13 @@ h1 {
 }
 
 h2 {
-    border: 2px solid white;
+    border: 1px solid white;
+    padding: 3px 5px;
     border-radius: 5px;
     margin: 10px;
     position: relative;
     top: -27px;
-    background-color: navy;
+    background-color: var(--background);
 }
 
 main {
