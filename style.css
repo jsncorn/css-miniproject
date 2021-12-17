@@ -22,7 +22,7 @@ h1 {
 
 h2 {
     border: 2px solid white;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 10px;
     position: relative;
     top: -27px;
@@ -36,7 +36,32 @@ main {
     justify-content: space-around;
 }
 
+main > section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .box {
     border: 2px dotted white;
     width: 30%;
 }
+
+.box p {
+    position: relative;
+    top: -27px;
+    padding-left: 10px;
+    margin: 0px auto;
+}
+
+@media screen and (max-width: 992px) {
+.box {
+    width: 45%;
+}
+}
+
+@media screen and (max-width: 768px) {
+.box {
+    width: 90%;
+}
+}
+
