@@ -1,0 +1,12 @@
+:root {
+    --cardbg: rgb(84,0,154);
+    --cardgradient: rgba(93,0,107,1) 0%, rgba(173,0,200,1) 100%;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
