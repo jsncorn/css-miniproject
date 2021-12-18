@@ -76,7 +76,6 @@ p {
     position: relative;
     top: -15px;
     height:255px;
-    align-items: center;
 }
 
 pre {
@@ -85,6 +84,21 @@ pre {
     color: white;
     font-family: monospace;
     line-height: 1.5;
-
 }
 
+h2:hover {
+    cursor: default;
+}
+
+.codebox, h2 {
+    transition: all  0.5s ease-in-out
+}
+
+.codebox:hover, h2:hover {
+    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 
+    0 0 15px rgba(232, 102, 236, 1);
+}
+
+p:hover {
+    font-size: 16px;
+}
