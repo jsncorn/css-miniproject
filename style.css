@@ -99,6 +99,20 @@ h2:hover {
     0 0 15px rgba(232, 102, 236, 1);
 }
 
-p:hover {
-    font-size: 16px;
+p:focus {
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    color: var(--cardbg);
+}
+
+h3 a {
+    color: red;
+}
+
+h3 a:hover {
+    box-shadow: inset 0px 0px 8px red, 0 0 15px pink;
+    cursor:none;
 }
